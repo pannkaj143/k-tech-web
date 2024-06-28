@@ -184,8 +184,8 @@ export default function DigitalMarketing() {
   return (
     <div>
       <Head>
-        <title>Digital Marketing</title>
-        <meta name="description" content="Digital Marketing Description" />
+        <title>Karad Infotech</title>
+        <meta name="description" content="Karad Infotech" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
           rel="icon"
