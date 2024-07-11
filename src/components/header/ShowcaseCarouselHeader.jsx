@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import DigitalMarketingLogo from "../logo/DigitalMarketingLogo";
+import KaradInfotechLogo from "../logo/KaradInfotechLogo";
 import Canvas from "../canvas/Canvas";
 import MenuBlack from "../../../public/assets/imgs/icon/menu-black.png";
 import Image from "next/image";
@@ -63,7 +63,7 @@ const ShowcaseCarouselHeader = ({ navData }) => {
         <>
           <header className="header__area-3">
             <div className="header__inner-2">
-              <DigitalMarketingLogo />
+              <KaradInfotechLogo />
               {navData.nav && navData.nav.length && (
                 <ShowcaseCarouselNav nav={navData.nav} />
               )}

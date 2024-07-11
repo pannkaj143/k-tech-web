@@ -7,7 +7,7 @@ import Image from "next/image.js";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const DigitalMarketingFooter = () => {
+const KaradInfotechFooter = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       let tHero = gsap.context(() => {
@@ -178,4 +178,4 @@ const DigitalMarketingFooter = () => {
   );
 };
 
-export default DigitalMarketingFooter;
+export default KaradInfotechFooter;

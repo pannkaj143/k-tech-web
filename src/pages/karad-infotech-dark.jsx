@@ -14,22 +14,22 @@ import {
   Switcher,
   ScrollTop,
   Preloader,
-  DigitalMarketingHero,
-  DigitalMarketingHeader,
-  DigitalMarketingBrand,
-  DigitalMarketingAbout,
-  DigitalMarketingService,
-  DigitalMarketingProtfolio,
-  DigitalMarketingTestimonial,
-  DigitalMarketingWorkflow,
-  DigitalMarketingPrice,
-  DigitalMarketingBlog,
-  DigitalMarketingFooter,
+  KaradInfotechHero,
+  KaradInfotechHeader,
+  KaradInfotechBrand,
+  KaradInfotechAbout,
+  KaradInfotechService,
+  KaradInfotechProtfolio,
+  KaradInfotechTestimonial,
+  KaradInfotechWorkflow,
+  KaradInfotechPrice,
+  KaradInfotechBlog,
+  KaradInfotechFooter,
 } from "@/components";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, ScrollToPlugin);
 
-export default function DigitalMarketingDark() {
+export default function KaradInfotechDark() {
   const [navData, setNavData] = useState({});
   const [mode, setMode] = useState("dark");
   useEffect(() => {
@@ -199,19 +199,19 @@ export default function DigitalMarketingDark() {
         <CursorAnimation />
         <Switcher setMode={setMode} />
         <ScrollTop />
-        <DigitalMarketingHeader navData={navData} />
+        <KaradInfotechHeader navData={navData} />
         <div id="smooth-wrapper">
           <div id="smooth-content">
-            <DigitalMarketingHero />
-            <DigitalMarketingBrand />
-            <DigitalMarketingAbout />
-            <DigitalMarketingService />
-            <DigitalMarketingProtfolio />
-            <DigitalMarketingTestimonial />
-            <DigitalMarketingWorkflow />
-            <DigitalMarketingPrice />
-            <DigitalMarketingBlog />
-            <DigitalMarketingFooter />
+            <KaradInfotechHero />
+            <KaradInfotechBrand />
+            <KaradInfotechAbout />
+            <KaradInfotechService />
+            <KaradInfotechProtfolio />
+            <KaradInfotechTestimonial />
+            <KaradInfotechWorkflow />
+            <KaradInfotechPrice />
+            <KaradInfotechBlog />
+            <KaradInfotechFooter />
           </div>
         </div>
       </main>

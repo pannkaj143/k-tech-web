@@ -4,7 +4,7 @@ import LogoWhite2 from "../../../public/assets/imgs/logo/site-logo-white-2.png";
 import LogoBlack from "../../../public/assets/imgs/logo/logo-black.png";
 import Image from "next/image";
 
-const DigitalMarketingLogo = () => {
+const KaradInfotechLogo = () => {
   return (
     <>
       <div className="header__logo-2">
@@ -31,4 +31,4 @@ const DigitalMarketingLogo = () => {
   );
 };
 
-export default DigitalMarketingLogo;
+export default KaradInfotechLogo;

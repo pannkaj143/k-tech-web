@@ -12,17 +12,17 @@ export {default as PortfolioScrollSmootherComponents} from "./common/PortfolioSc
 
 // Digital Marketing Page 
 
-export {default as DigitalMarketingHero} from "./hero/DigitalMarketingHero"
-export {default as DigitalMarketingHeader} from "./header/DigitalMarketingHeader"
-export {default as DigitalMarketingBrand} from "./brand/DigitalMarketingBrand"
-export {default as DigitalMarketingAbout} from "./about/DigitalMarketingAbout"
-export {default as DigitalMarketingService} from "./service/DigitalMarketingService"
-export {default as DigitalMarketingProtfolio} from "./portfolio/DigitalMarketingProtfolio"
-export {default as DigitalMarketingTestimonial} from "./testimonial/DigitalMarketingTestimonial"
-export {default as DigitalMarketingWorkflow} from "./workflow/DigitalMarketingWorkflow"
-export {default as DigitalMarketingPrice} from "./price/DigitalMarketingPrice"
-export {default as DigitalMarketingBlog} from "./blog/DigitalMarketingBlog"
-export {default as DigitalMarketingFooter} from "./footer/DigitalMarketingFooter"
+export {default as KaradInfotechHero} from "./hero/KaradInfotechHero"
+export {default as KaradInfotechHeader} from "./header/KaradInfotechHeader"
+export {default as KaradInfotechBrand} from "./brand/KaradInfotechBrand"
+export {default as KaradInfotechAbout} from "./about/KaradInfotechAbout"
+export {default as KaradInfotechService} from "./service/KaradInfotechService"
+export {default as KaradInfotechProtfolio} from "./portfolio/KaradInfotechProtfolio"
+export {default as KaradInfotechTestimonial} from "./testimonial/KaradInfotechTestimonial"
+export {default as KaradInfotechWorkflow} from "./workflow/KaradInfotechWorkflow"
+export {default as KaradInfotechPrice} from "./price/KaradInfotechPrice"
+export {default as KaradInfotechBlog} from "./blog/KaradInfotechBlog"
+export {default as KaradInfotechFooter} from "./footer/KaradInfotechFooter"
 
 // Design Studio Page 
 

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const DigitalMarketingNav = ({ nav }) => {
+const KaradInfotechNav = ({ nav }) => {
   return (
     <>
       <div className="header__nav-2">
@@ -76,4 +76,4 @@ const DigitalMarketingNav = ({ nav }) => {
   );
 };
 
-export default DigitalMarketingNav;
+export default KaradInfotechNav;

@@ -8,7 +8,7 @@ import Image from "next/image.js";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const DigitalMarketingBlog = () => {
+const KaradInfotechBlog = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       let device_width = window.innerWidth;
@@ -161,4 +161,4 @@ const DigitalMarketingBlog = () => {
   );
 };
 
-export default DigitalMarketingBlog;
+export default KaradInfotechBlog;

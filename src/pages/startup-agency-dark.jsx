@@ -15,7 +15,7 @@ import {
   ScrollTop,
   Preloader,
   StartupAgencyHero,
-  DigitalMarketingHeader,
+  KaradInfotechHeader,
   StartupAgencyWorkflow,
   StartupAgencyFeature,
   StartupAgencyService,
@@ -197,7 +197,7 @@ const StartupAgencyDark = () => {
         <CursorAnimation />
         <Switcher setMode={setMode} />
         <ScrollTop />
-        <DigitalMarketingHeader navData={navData} />
+        <KaradInfotechHeader navData={navData} />
         <div id="smooth-wrapper">
           <div id="smooth-content">
             <StartupAgencyHero />

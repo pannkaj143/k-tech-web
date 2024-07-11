@@ -17,7 +17,7 @@ import {
   DigitalAgencyHeader,
   DigitalAgencyCTA,
   DigitalAgencyFooter,
-  DigitalMarketingService,
+  KaradInfotechService,
   ServiceBrand,
 } from "@/components";
 
@@ -200,7 +200,7 @@ const ServiceV4 = () => {
         <DigitalAgencyHeader />
         <div id="smooth-wrapper">
           <div id="smooth-content">
-            <DigitalMarketingService />
+            <KaradInfotechService />
             <ServiceBrand />
             <DigitalAgencyCTA />
             <DigitalAgencyFooter />

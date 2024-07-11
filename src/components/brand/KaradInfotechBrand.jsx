@@ -11,7 +11,7 @@ import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const DigitalMarketingBrand = () => {
+const KaradInfotechBrand = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       let device_width = window.innerWidth;
@@ -129,4 +129,4 @@ const DigitalMarketingBrand = () => {
   );
 };
 
-export default DigitalMarketingBrand;
+export default KaradInfotechBrand;

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const DigitalMarketingService = () => {
+const KaradInfotechService = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       let tHero = gsap.context(() => {
@@ -266,4 +266,4 @@ const DigitalMarketingService = () => {
   );
 };
 
-export default DigitalMarketingService;
+export default KaradInfotechService;

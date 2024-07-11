@@ -20,7 +20,7 @@ import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const DigitalMarketingTestimonial = () => {
+const KaradInfotechTestimonial = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       let tHero = gsap.context(() => {
@@ -249,4 +249,4 @@ const DigitalMarketingTestimonial = () => {
   );
 };
 
-export default DigitalMarketingTestimonial;
+export default KaradInfotechTestimonial;

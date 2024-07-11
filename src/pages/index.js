@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 const Index = () => {
   const router = useRouter();
   useEffect(() => {
-    router.push("/digital-marketing");
+    router.push("/karad-infotech");
   }, [router]);
   return <div></div>;
 };

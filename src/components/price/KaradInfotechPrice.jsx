@@ -8,7 +8,7 @@ import Link from "next/link.js";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const DigitalMarketingPrice = () => {
+const KaradInfotechPrice = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       let tHero = gsap.context(() => {
@@ -203,4 +203,4 @@ const DigitalMarketingPrice = () => {
   );
 };
 
-export default DigitalMarketingPrice;
+export default KaradInfotechPrice;

@@ -7,7 +7,7 @@ import ArrowDownSm from "../../../public/assets/imgs/icon/arrow-down-sm.png";
 import Hero31 from "../../../public/assets/imgs/hero/3/1.jpg";
 import Image from "next/image.js";
 
-const DigitalMarketingHero = () => {
+const KaradInfotechHero = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       let mark = document.querySelector(".hero__area-3 .title-left");
@@ -144,4 +144,4 @@ const DigitalMarketingHero = () => {
   );
 };
 
-export default DigitalMarketingHero;
+export default KaradInfotechHero;

@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import DigitalMarketingLogo from "../logo/DigitalMarketingLogo";
-import DigitalMarketingNav from "../nav/DigitalMarketingNav";
+import KaradInfotechLogo from "../logo/KaradInfotechLogo";
+import KaradInfotechNav from "../nav/KaradInfotechNav";
 import Canvas from "../canvas/Canvas";
 import MenuBlack from "../../../public/assets/imgs/icon/menu-black.png";
 import Image from "next/image";
 import SearchData from "../../data/searchData.json";
 import { useRouter } from "next/router";
 
-const DigitalMarketingHeader = ({ navData }) => {
+const KaradInfotechHeader = ({ navData }) => {
   const [topScroll, setTopScroll] = useState(0);
   const [searchData, setSearchData] = useState({});
   const [searchValue, setSearchValue] = useState("");
@@ -115,9 +115,9 @@ const DigitalMarketingHeader = ({ navData }) => {
         <>
           <header className="header__area-3">
             <div className="header__inner-3">
-              <DigitalMarketingLogo />
+              <KaradInfotechLogo />
               {navData.nav && navData.nav.length && (
-                <DigitalMarketingNav nav={navData.nav} />
+                <KaradInfotechNav nav={navData.nav} />
               )}
               <div className="header__nav-icon-3">
                 <button
@@ -175,4 +175,4 @@ const DigitalMarketingHeader = ({ navData }) => {
   );
 };
 
-export default DigitalMarketingHeader;
+export default KaradInfotechHeader;

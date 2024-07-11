@@ -16,7 +16,7 @@ import {
   Preloader,
   ScrollSmootherComponents,
   ModernAgencyHero,
-  DigitalMarketingHeader,
+  KaradInfotechHeader,
   ModernAgencyPortfolio,
   ModernAgencyWork,
   ModernAgencyAbout,
@@ -193,7 +193,7 @@ const MordernAgency = () => {
         <CursorAnimation />
         <Switcher setMode={setMode} />
         <ScrollTop />
-        <DigitalMarketingHeader navData={navData} />
+        <KaradInfotechHeader navData={navData} />
         <div id="smooth-wrapper">
           <div id="smooth-content">
             <ModernAgencyHero />

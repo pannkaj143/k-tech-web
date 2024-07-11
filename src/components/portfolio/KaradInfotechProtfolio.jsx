@@ -17,7 +17,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
-const DigitalMarketingProtfolio = () => {
+const KaradInfotechProtfolio = () => {
   return (
     <>
       <section className="portfolio__area-3">
@@ -136,4 +136,4 @@ const DigitalMarketingProtfolio = () => {
   );
 };
 
-export default DigitalMarketingProtfolio;
+export default KaradInfotechProtfolio;
