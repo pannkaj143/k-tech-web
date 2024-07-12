@@ -106,7 +106,7 @@ const KaradInfotechFooter = () => {
             <div className="footer__logo-3 pt-120">
               <Image
                 priority
-                style={{ width: "auto", height: "auto" }}
+                style={{ width: "80px", height: "35px" }}
                 src={SiteLogoWhite}
                 alt="Footer Logo"
               />

@@ -62,7 +62,7 @@ const Canvas = ({ bladeMode }) => {
               <Link href="/karad-infotech">
                 <Image
                   priority
-                  style={{ width: "auto", height: "auto" }}
+                  style={{ width: "100px", height: "50px" }}
                   src={logoWhite2}
                   alt="Offcanvas Logo"
                 />
