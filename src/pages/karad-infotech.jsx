@@ -1,3 +1,5 @@
+/** @format */
+
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import allNavData from "../data/navData.json";
@@ -11,10 +13,9 @@ import {
 } from "@/plugins";
 import {
   CursorAnimation,
-  Switcher,
   ScrollTop,
   Preloader,
-  KaradInfotechHero,
+  DigitalAgencyHero,
   KaradInfotechHeader,
   KaradInfotechBrand,
   KaradInfotechAbout,
@@ -31,7 +32,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, ScrollToPlugin);
 
 export default function KaradInfotech() {
   const [navData, setNavData] = useState({});
-  const [mode, setMode] = useState("");
+  const [mode, setMode] = useState("dark");
   useEffect(() => {
     setNavData(allNavData);
     if (typeof window !== "undefined") {
@@ -197,12 +198,11 @@ export default function KaradInfotech() {
         <div className="has-smooth" id="has_smooth"></div>
         <Preloader />
         <CursorAnimation />
-        <Switcher setMode={setMode} />
         <ScrollTop />
         <KaradInfotechHeader navData={navData} />
         <div id="smooth-wrapper">
           <div id="smooth-content">
-            <KaradInfotechHero />
+            <DigitalAgencyHero />
             <KaradInfotechBrand />
             <KaradInfotechAbout />
             <KaradInfotechService />

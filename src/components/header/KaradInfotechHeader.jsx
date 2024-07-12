@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useEffect, useState } from "react";
 import KaradInfotechLogo from "../logo/KaradInfotechLogo";
 import KaradInfotechNav from "../nav/KaradInfotechNav";
@@ -11,7 +13,7 @@ const KaradInfotechHeader = ({ navData }) => {
   const [topScroll, setTopScroll] = useState(0);
   const [searchData, setSearchData] = useState({});
   const [searchValue, setSearchValue] = useState("");
-  const [searchSlug, setSearchSlug] = useState([])
+  const [searchSlug, setSearchSlug] = useState([]);
   const router = useRouter();
   const handleTopScroll = () => {
     const position = window.pageYOffset;
@@ -74,9 +76,9 @@ const KaradInfotechHeader = ({ navData }) => {
     document.querySelector(".header__search").classList.remove("open-search");
     document.querySelector("#search_icon").style.display = "block";
     document.querySelector("#search_close").style.display = "none";
-    setSearchValue('')
-    let inputData = document.getElementById("s")
-    inputData.value = ''
+    setSearchValue("");
+    let inputData = document.getElementById("s");
+    inputData.value = "";
   };
   useEffect(() => {
     if (searchData && Object.keys(searchData).length) {
@@ -87,28 +89,28 @@ const KaradInfotechHeader = ({ navData }) => {
         searchData.map((el) => {
           let result = el.name.includes(searchValue);
           if (result) {
-            allSlug.push(el.slug)
+            allSlug.push(el.slug);
             let createTag = document.createElement("p");
             createTag.innerHTML = el.name;
-            createTag.classList.add("search-name")
+            createTag.classList.add("search-name");
             parentDiv.appendChild(createTag);
           }
         });
-        setSearchSlug(allSlug)
+        setSearchSlug(allSlug);
       } else {
         let parentDiv = document.getElementById("search-value");
         parentDiv.innerHTML = "";
         const allSlug = [];
-        setSearchSlug(allSlug)
+        setSearchSlug(allSlug);
       }
     }
   }, [searchValue, searchData]);
   const test = (event) => {
-    event.preventDefault()
-    if(searchSlug && searchSlug.length) {
-      router.push("/" + searchSlug[0])
+    event.preventDefault();
+    if (searchSlug && searchSlug.length) {
+      router.push("/" + searchSlug[0]);
     }
-  }
+  };
   return (
     <>
       {navData && Object.keys(navData).length && (
@@ -153,7 +155,6 @@ const KaradInfotechHeader = ({ navData }) => {
                 name="s"
                 id="s"
                 placeholder="Search.."
-                
                 onChange={(event) => setSearchValue(event.target.value)}
               />
               <div id="search-value"></div>
