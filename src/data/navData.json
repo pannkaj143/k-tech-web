@@ -2,7 +2,7 @@
   "nav": [
     {
       "nav_name": "Home",
-      "link": "/digital-marketing",
+      "link": "/karad-infotech",
       "type": "megamenu",
       "full_width": false,
       "sub_nav": [
@@ -10,8 +10,8 @@
           "title": "Agency",
           "data": [
             {
-              "name": "Digital Marketing",
-              "link": "/digital-marketing"
+              "name": "Karad Infotech",
+              "link": "/karad-infotech"
             },
             {
               "name": "Design Studio",
@@ -43,8 +43,8 @@
           "title": "Agency Dark",
           "data": [
             {
-              "name": "Digital Marketing",
-              "link": "/digital-marketing-dark"
+              "name": "Karad Infotech",
+              "link": "/karad-infotech-dark"
             },
             {
               "name": "Design Studio",

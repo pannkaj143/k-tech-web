@@ -64,7 +64,7 @@ const PersonalPortfolioHeader = () => {
       <header className="header__area-2">
         <div className="header__inner-5">
           <div className="header__logo-5">
-            <Link href="/digital-marketing" className="logo-dark">
+            <Link href="/karad-infotech" className="logo-dark">
               <Image
                 priority
                 width={136}
@@ -73,7 +73,7 @@ const PersonalPortfolioHeader = () => {
                 alt="Site Logo"
               />
             </Link>
-            <Link href="/digital-marketing" className="logo-light">
+            <Link href="/karad-infotech" className="logo-light">
               <Image
                 priority
                 width={100}

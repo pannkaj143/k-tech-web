@@ -44,7 +44,7 @@ const DigitalAgencyHeader = () => {
       <header className="header__area">
         <div className="header__inner">
           <div className="header__logo">
-            <Link href="/digital-marketing">
+            <Link href="/karad-infotech">
               <Image
                 priority
                 width={33}

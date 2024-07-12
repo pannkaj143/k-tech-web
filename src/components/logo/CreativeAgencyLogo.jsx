@@ -8,20 +8,20 @@ const CreativeAgencyLogo = () => {
   return (
     <>
       <div className="header__logo-2">
-        <Link href={"/digital-marketing"} className="logo-dark">
+        <Link href={"/karad-infotech"} className="logo-dark">
           <Image
             priority
-            width={136}
-            height={45}
+            width={80}
+            height={35}
             src={LogoBlack}
             alt="Site Logo"
           />
         </Link>
-        <Link href={"/digital-marketing"} className="logo-light">
+        <Link href={"/karad-infotech"} className="logo-light">
           <Image
             priority
-            width={100}
-            height={33}
+            width={80}
+            height={35}
             src={LogoWhite2}
             alt="Site Logo"
           />
