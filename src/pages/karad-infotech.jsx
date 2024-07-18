@@ -32,7 +32,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, ScrollToPlugin);
 
 export default function KaradInfotech() {
   const [navData, setNavData] = useState({});
-  const [mode, setMode] = useState("dark");
+  const [mode, setMode] = useState("");
   useEffect(() => {
     setNavData(allNavData);
     if (typeof window !== "undefined") {
