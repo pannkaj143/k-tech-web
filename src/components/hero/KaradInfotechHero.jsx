@@ -80,8 +80,8 @@ const KaradInfotechHero = () => {
               <div className="hero__inner-3">
                 <div className="sec-title-wrapper">
                   <h2 className="sec-sub-title">Digital</h2>
-                  <h3 className="sec-title title-left">Mark</h3>
-                  <h3 className="sec-title title-right">eting</h3>
+                  <h3 className="sec-title title-left">Agency</h3>
+                  <h3 className="sec-title title-right">Studio</h3>
                 </div>
                 <div className="hero__text-3">
                   <p className="hero__text-animation">

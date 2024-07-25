@@ -15,7 +15,7 @@ import {
   CursorAnimation,
   ScrollTop,
   Preloader,
-  DigitalAgencyHero,
+  KaradInfotechHero,
   KaradInfotechHeader,
   KaradInfotechBrand,
   KaradInfotechAbout,
@@ -202,7 +202,7 @@ export default function KaradInfotech() {
         <KaradInfotechHeader navData={navData} />
         <div id="smooth-wrapper">
           <div id="smooth-content">
-            <DigitalAgencyHero />
+            <KaradInfotechHero />
             <KaradInfotechBrand />
             <KaradInfotechAbout />
             <KaradInfotechService />
