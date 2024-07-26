@@ -28,7 +28,7 @@ const DigitalAgencyFooter = () => {
                   <div className="footer__widget">
                     <Image
                       priority
-                      style={{ width: "auto", height: "auto" }}
+                      style={{ width: "80px", height: "35px" }}
                       className="footer__logo"
                       src={FooterLogoWhite}
                       alt="Footer Logo"
@@ -48,7 +48,7 @@ const DigitalAgencyFooter = () => {
                       <li>
                         <a href="#">
                           <span>
-                            <i className="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
                           </span>
                         </a>
                       </li>
@@ -89,19 +89,20 @@ const DigitalAgencyFooter = () => {
                       </li>
                     </ul>
                   </div>
-
                   <div className="footer__widget-3">
                     <h2 className="footer__widget-title">Contact Us</h2>
                     <ul className="footer__contact">
-                      <li>Valentin, Street Road 24, New York, USA - 67452</li>
+                      <li>126 Royal College St,
+                      <br></br>London NW1 0TA
+                      </li>
                       <li>
-                        <a href="tel:02574328301" className="phone">
-                          (+02) 574 - 328 - 301{" "}
+                        <a href="tel:02045169416" className="phone">
+                          (+44) 020 4516 9416{" "}
                         </a>
                       </li>
                       <li>
-                        <a href="mailto:info@buildyexample.com">
-                          info@buildyexample.com
+                        <a href="mailto:connect@karadinfotech.co.uk">
+                          connect@karadinfotech.co.uk
                         </a>
                       </li>
                     </ul>
@@ -120,15 +121,15 @@ const DigitalAgencyFooter = () => {
                         <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>
-                    <h3 className="contact-time">09 : 00 AM - 10 : 30 PM</h3>
-                    <h4 className="contact-day">Saturday - Thursday</h4>
+                    <h3 className="contact-time">09 : 00 AM - 05 : 00 PM</h3>
+                    <h4 className="contact-day">Monday - Friday</h4>
                   </div>
 
                   <div className="footer__copyright">
                     <p>
                       © 2022 - 2025 | Alrights reserved by{" "}
-                      <a href="https://wealcoder.com/" target="_blank">
-                        Wealcoder
+                      <a href="https://karadinfotech.com/" target="_blank">
+                        Karad Infotech
                       </a>
                     </p>
                   </div>

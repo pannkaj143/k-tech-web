@@ -25,7 +25,7 @@ import {
   KaradInfotechWorkflow,
   KaradInfotechPrice,
   KaradInfotechBlog,
-  KaradInfotechFooter,
+  DigitalAgencyFooter
 } from "@/components";
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, ScrollToPlugin);
@@ -211,7 +211,7 @@ export default function KaradInfotech() {
             <KaradInfotechWorkflow />
             <KaradInfotechPrice />
             <KaradInfotechBlog />
-            <KaradInfotechFooter />
+            <DigitalAgencyFooter />
           </div>
         </div>
       </main>

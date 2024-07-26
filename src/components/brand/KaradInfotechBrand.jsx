@@ -76,7 +76,7 @@ const KaradInfotechBrand = () => {
                   />
                 </div>
                 <div className="brand__item-2 fade_bottom">
-                  <Image
+                <Image
                     priority
                     width={100}
                     height={90}

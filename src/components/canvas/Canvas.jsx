@@ -670,12 +670,12 @@ const Canvas = ({ bladeMode }) => {
               <h3>Get in touch</h3>
               <ul>
                 <li>
-                  <a href="tel:02094980547">+(02) - 094 980 547</a>
+                  <a href="tel:02045169416">+(44) - 020 4516 9416</a>
                 </li>
                 <li>
-                  <a href="mailto:info@extradesign.com">info@extradesign.com</a>
+                  <a href="mailto:connect@karadinfotech.co.uk">connect@karadinfotech.co.uk</a>
                 </li>
-                <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
+                <li>126 Royal College St, <br></br>London NW1 0TA</li>
               </ul>
             </div>
             <Image
